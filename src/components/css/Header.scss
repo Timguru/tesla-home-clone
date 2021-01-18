@@ -4,11 +4,20 @@
     justify-content: space-between;
     background: transparent;
     margin-top: 20px;
-    position: sticky;
+    position: fixed;
+    z-index: 100;
+    width : 100vw;
+
 }
 
 .header__left {
     margin-left: 30px;
+}
+
+.header__center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 .header__center  > ul{
