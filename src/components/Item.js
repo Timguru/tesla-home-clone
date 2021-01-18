@@ -39,8 +39,8 @@ function Item({
                     </div>
                      {first &&(
                          <div className="item__expand">
-                             <IconButton style={{color : '#fff'}}>
-                             <ExpandMoreIcon fontSize="large"/>
+                             <IconButton  style={{color : '#fff'}}>
+                             <ExpandMoreIcon fontSize="large" className="expand__btn"/>
                              </IconButton>
                              
                          </div>
