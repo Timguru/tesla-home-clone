@@ -2,6 +2,8 @@
   margin  : 0;
 }
 
-.app {
-  overflow-x: hidden;
+.app__itemsContainer {
+  scroll-snap-type: y mandatory;
+  overflow : auto;
+  height : 100vh;
 }
